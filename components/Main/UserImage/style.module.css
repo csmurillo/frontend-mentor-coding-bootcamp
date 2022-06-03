@@ -1,0 +1,15 @@
+@keyframes removeImage {
+    0% {width:75%}
+    100% {width:0%}
+}
+@keyframes showImage {
+    0% {width:0%}
+    99% {width:75%}
+}
+.remove{
+    animation: removeImage 2s linear;
+}
+
+.show{
+    animation: showImage 2s linear;
+}

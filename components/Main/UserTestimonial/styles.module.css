@@ -1,0 +1,26 @@
+/* .backgroundImages{
+    background-image: url('/images/pattern-quotes.svg'),
+        url('/images/pattern-curve.svg');
+    background-repeat: no-repeat,
+        no-repeat;
+    background-position: top center,
+        bottom;
+}
+@media (min-width: 768px) {
+    .backgroundImages{
+        background-size: contain;
+        background-position: none,
+            bottom;
+    }
+} */
+.quoteBackgroundImg{
+    background-position: top center;
+    background-size: 70px;
+}
+@media (min-width: 768px) {
+    .quoteBackgroundImg{
+        background-position-x: 120px;
+        background-size: 100px;
+        /* background-position: top center; */
+    }
+}
