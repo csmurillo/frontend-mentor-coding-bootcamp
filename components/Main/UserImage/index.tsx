@@ -17,7 +17,7 @@ const UserImage: FC<UserImageProps>= ({userImage,changeCurrentUser,currentBootCa
                         <Image className="rounded-lg" src={userImage?userImage+'':'/'} alt="User Image" layout="fill"/>
                 </div>
                 {/* toggle user */}
-                <div className="bg-white rounded-3xl flex w-28 py-4 absolute bottom-5 md:left-0 md:bottom-0">
+                <div className="bg-white rounded-3xl flex w-28 py-4 absolute bottom-5 md:bottom-14 md:left-28">
                     <div className="w-1/2 flex justify-center">
                         <button className="relative w-5 h-5" onClick={()=>{changeCurrentUser('l');}} disabled={currentBootCampUserSwitch}>
                             <Image src="/images/icon-prev.svg" layout="fill"/>
